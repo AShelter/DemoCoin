@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = SagaCoin-qt
+TARGET = SukaCoin-qt
 VERSION = 1.0.0.0
 INCLUDEPATH += src src/json src/qt src/qt/plugins/mrichtexteditor
 QT += network printsupport
@@ -540,8 +540,8 @@ macx:HEADERS += src/qt/macdockiconhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/sagacoin.icns
-macx:TARGET = "SagaCoin-Qt"
+macx:ICON = src/qt/res/icons/sukacoin.icns
+macx:TARGET = "SukaCoin-Qt"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

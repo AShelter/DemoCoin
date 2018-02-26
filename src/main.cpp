@@ -77,7 +77,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "SagaCoin Signed Message:\n";
+const string strMessageMagic = "SukaCoin Signed Message:\n";
 
 extern enum Checkpoints::CPMode CheckpointsMode;
 
@@ -2744,7 +2744,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
 }
 
 #ifdef ENABLE_WALLET
-// sagacoin: attempt to generate suitable proof-of-stake
+// sukacoin: attempt to generate suitable proof-of-stake
 bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
     // if we are trying to sign
@@ -3095,7 +3095,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("SagaCoin-loadblk");
+    RenameThread("SukaCoin-loadblk");
 
     CImportingNow imp;
 

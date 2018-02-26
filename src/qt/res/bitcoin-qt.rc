@@ -1,4 +1,4 @@
-IDI_ICON1 ICON DISCARDABLE "icons/sagacoin.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/sukacoin.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
 #include "../../clientversion.h" // holds the needed client version information
@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "SagaCoin"
-            VALUE "FileDescription",    "SagaCoin-Qt (OSS GUI client for SagaCoin)"
+            VALUE "CompanyName",        "SukaCoin"
+            VALUE "FileDescription",    "SukaCoin-Qt (OSS GUI client for SukaCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "SagaCoin-qt"
-            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2017 The SagaCoin developers"
+            VALUE "InternalName",       "SukaCoin-qt"
+            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2017 The SukaCoin developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "SagaCoin-qt.exe"
-            VALUE "ProductName",        "SagaCoin-Qt"
+            VALUE "OriginalFilename",   "SukaCoin-qt.exe"
+            VALUE "ProductName",        "SukaCoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

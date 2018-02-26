@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to SagaCoin Secure Messaging from Qt view code. */
+/** Interface to SukaCoin Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

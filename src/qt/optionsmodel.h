@@ -34,7 +34,7 @@ public:
         MinimizeCoinAge,   // bool
         UseBlackTheme,     // bool
         DarksendRounds,    // int
-        anonymizeSagaCoinAmount, //int
+        anonymizeSukaCoinAmount, //int
         OptionIDRowCount,
     };
 
@@ -66,7 +66,7 @@ signals:
     void reserveBalanceChanged(qint64);
     void coinControlFeaturesChanged(bool);
     void darksendRoundsChanged(int);
-    void anonymizeSagaCoinAmountChanged(int);
+    void anonymizeSukaCoinAmountChanged(int);
 };
 
 #endif // OPTIONSMODEL_H

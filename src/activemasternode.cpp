@@ -8,7 +8,7 @@
 #include "clientversion.h"
 
 //
-// Bootup the masternode, look for a 2500 SagaCoin input and register on the network
+// Bootup the masternode, look for a 2500 SukaCoin input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
