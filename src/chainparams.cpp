@@ -82,11 +82,11 @@ public:
         genesis.nNonce   = 0;                                        
 
         hashGenesisBlock = genesis.GetHash(); 
-   		  printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+   		  //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        //printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0xcacaf48e744d3425918ea2d4c420583e3f7c6aa0cf6a755a064e9a51dd7a0709"));
+        assert(genesis.hashMerkleRoot == uint256("0x3834bfaae78e9c03d313022888515bd3bee0a4bafc3c0f7fd289c8806f6b29c9"));
 
     	//vSeeds.push_back(CDNSSeedData("seed1", "0.0.0.0"));
     	
