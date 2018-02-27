@@ -1155,7 +1155,7 @@ void createConf()       //Automatic sukacoin.conf generation
 
     ofstream pConf;
     pConf.open(GetConfigFile().generic_string().c_str());
-    const char* nodes =  "\nrpcport=48844"
+    const char* nodes =  "\nrpcport=49994"
                          "\nrpcallowip=127.0.0.1"
                          "\ndaemon=1"
                          "\nserver=1"
